@@ -16,7 +16,9 @@
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper">
       <div class="weather-app">
+        <div class="overview">
       <h1>Weather App</h1>
       <ul>
         <li>
@@ -26,12 +28,25 @@
           Clear
         </li>
       </ul>
+      </div>
+
       <div class="row">
         <div class="col-6">
-          <img src="https://images.clipartlogo.com/files/images/39/397765/symbols-weather-clear-sunny_f.jpg" alt="Clear" width="45px
-          " />
-          12°C | °F
-        </div>    
+<div class="clearfix weather-temperature">
+          <img src="https://images.clipartlogo.com/files/images/39/397765/symbols-weather-clear-sunny_f.jpg" 
+          alt="Clear" 
+          width="45px"
+          class="float-left" />
+          <div class="float-left">
+          <strong>12</strong><span class="units">°C | °F</span>
+  
+          </div>
+          
+          </div>
+  </div>
+        </div>  
+  
+
 <div class="col-6">
   <ul>
     <li>
@@ -45,6 +60,8 @@
     </li>
   </ul>
   </div>
+</div>
+
 </div>
 <small>
   <a href="https://github.com/sara01rizo" target="_blank" >Open-source code</a> by Sara Rizo
