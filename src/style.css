@@ -64,3 +64,15 @@ li:first-letter {
   font-size: 16px;
   top: -34px;
 }
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-underline-position: unset;
+  -ms-text-underline-position: unset;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+  text-underline-offset: none;
+}
